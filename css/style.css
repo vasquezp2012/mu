@@ -1,0 +1,626 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+	font-family: consolas;
+}
+
+
+.btn-neon{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.btn-neon:hover{
+	background: #A0FF0D;
+	box-shadow: 0 0 10px #A0FF0D, 0 0 40px #A0FF0D, 0 0 80px #A0FF0D;
+	transition-delay: 1s;
+}
+.btn-neon span{
+	position: absolute;
+	display: block;
+}
+#span1{
+	top:0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent,#A0FF0D);
+
+}
+.btn-neon:hover #span1{
+	left: 100%;
+	transition: 1s;
+}
+#span3{
+	bottom:0;
+	right:  -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent,#A0FF0D);
+
+}
+.btn-neon:hover #span3{
+	right:  100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+#span2{
+	top: -100%;
+	right:  0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent,#A0FF0D);
+
+}
+.btn-neon:hover #span2{
+	top:   100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+#span4{
+	bottom:  -100%;
+	left:   0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent,#A0FF0D);
+
+}
+.btn-neon:hover #span4{
+	bottom:    100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+  
+
+
+
+
+
+.btn-blue{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.btn-blue:hover{
+	background: #03FFF0
+;
+	box-shadow: 0 0 10px #03FFF0, 0 0 40px #03FFF0, 0 0 80px #03FFF0;
+	transition-delay: 1s;
+}
+.btn-blue span{
+	position: absolute;
+	display: block;
+}
+#spanb1{
+	top:0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent,#03FFF0);
+
+}
+.btn-blue:hover #spanb1{
+	left: 100%;
+	transition: 1s;
+}
+#spanb3{
+	bottom:0;
+	right:  -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent,#03FFF0);
+
+}
+.btn-blue:hover #spanb3{
+	right:  100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+#spanb2{
+	top: -100%;
+	right:  0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent,#03FFF0);
+
+}
+.btn-blue:hover #spanb2{
+	top:   100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+#spanb4{
+	bottom:  -100%;
+	left:   0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent,#03FFF0);
+
+}
+.btn-blue:hover #spanb4{
+	bottom:    100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+
+
+
+
+
+
+.btn-c{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.btn-c:hover{
+	background: #BB11FA
+;
+	box-shadow: 0 0 10px #BB11FA, 0 0 40px #BB11FA, 0 0 80px #BB11FA;
+	transition-delay: 1s;
+}
+.btn-c span{
+	position: absolute;
+	display: block;
+}
+#spanC1{
+	top:0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent,#BB11FA);
+
+}
+.btn-c:hover #spanC1{
+	left: 100%;
+	transition: 1s;
+}
+#spanC3{
+	bottom:0;
+	right:  -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent,#BB11FA);
+
+}
+.btn-c:hover #spanC3{
+	right:  100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+#spanC2{
+	top: -100%;
+	right:  0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent,#BB11FA);
+
+}
+.btn-c:hover #spanC2{
+	top:   100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+#spanC4{
+	bottom:  -100%;
+	left:   0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent,#BB11FA);
+
+}
+.btn-c:hover #spanC4{
+	bottom:    100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+
+.btn-d{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.btn-d:hover{
+	background: #4FCD30
+;
+	box-shadow: 0 0 10px #4FCD30, 0 0 40px #4FCD30, 0 0 80px #4FCD30;
+	transition-delay: 1s;
+}
+.btn-d span{
+	position: absolute;
+	display: block;
+}
+#spanD1{
+	top:0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent,#4FCD30);
+
+}
+.btn-d:hover #spanD1{
+	left: 100%;
+	transition: 1s;
+}
+#spanD3{
+	bottom:0;
+	right:  -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent,#4FCD30);
+
+}
+.btn-d:hover #spanD3{
+	right:  100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+#spanD2{
+	top: -100%;
+	right:  0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent,#4FCD30);
+
+}
+.btn-d:hover #spanD2{
+	top:   100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+#spanD4{
+	bottom:  -100%;
+	left:   0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent,#4FCD30);
+
+}
+.btn-d:hover #spanD4{
+	bottom:    100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+
+
+.btn-e{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.btn-e:hover{
+	background: #FFF703
+;
+	box-shadow: 0 0 10px #FFF703, 0 0 40px #FFF703, 0 0 80px #FFF703;
+	transition-delay: 1s;
+}
+.btn-e span{
+	position: absolute;
+	display: block;
+}
+#spanE1{
+	top:0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent,#FFF703);
+
+}
+.btn-e:hover #spanE1{
+	left: 100%;
+	transition: 1s;
+}
+#spanE3{
+	bottom:0;
+	right:  -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent,#FFF703);
+
+}
+.btn-e:hover #spanE3{
+	right:  100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+#spanE2{
+	top: -100%;
+	right:  0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent,#FFF703);
+
+}
+.btn-e:hover #spanE2{
+	top:   100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+#spanE4{
+	bottom:  -100%;
+	left:   0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent,#FFF703);
+
+}
+.btn-e:hover #spanE4{
+	bottom:    100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+
+
+
+.btn-f{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.btn-f:hover{
+	background: #E91D10
+;
+	box-shadow: 0 0 10px #E91D10, 0 0 40px #E91D10, 0 0 80px #E91D10;
+	transition-delay: 1s;
+}
+.btn-f span{
+	position: absolute;
+	display: block;
+}
+#spanF1{
+	top:0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent,#E91D10);
+
+}
+.btn-f:hover #spanF1{
+	left: 100%;
+	transition: 1s;
+}
+#spanF3{
+	bottom:0;
+	right:  -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent,#E91D10);
+
+}
+.btn-f:hover #spanF3{
+	right:  100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+#spanF2{
+	top: -100%;
+	right:  0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent,#E91D10);
+
+}
+.btn-f:hover #spanF2{
+	top:   100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+#spanF4{
+	bottom:  -100%;
+	left:   0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent,#E91D10);
+
+}
+.btn-f:hover #spanF4{
+	bottom:    100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+
+
+
+.btn-g{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.btn-g:hover{
+	background: #083CB4
+;
+	box-shadow: 0 0 10px #083CB4, 0 0 40px #083CB4, 0 0 80px #083CB4;
+	transition-delay: 1s;
+}
+.btn-g span{
+	position: absolute;
+	display: block;
+}
+#spanG1{
+	top:0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent,#083CB4);
+
+}
+.btn-g:hover #spanG1{
+	left: 100%;
+	transition: 1s;
+}
+#spanG3{
+	bottom:0;
+	right:  -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent,#083CB4);
+
+}
+.btn-g:hover #spanG3{
+	right:  100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+#spanG2{
+	top: -100%;
+	right:  0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent,#083CB4);
+
+}
+.btn-g:hover #spanG2{
+	top:   100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+#spanG4{
+	bottom:  -100%;
+	left:   0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent,#083CB4);
+
+}
+.btn-g:hover #spanG4{
+	bottom:    100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+
+
+
+
+.btn-h{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.btn-h:hover{
+	background: #FF0DDA
+;
+	box-shadow: 0 0 10px #FF0DDA, 0 0 40px #FF0DDA, 0 0 80px #FF0DDA;
+	transition-delay: 1s;
+}
+.btn-h span{
+	position: absolute;
+	display: block;
+}
+#spanH1{
+	top:0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent,#FF0DDA);
+
+}
+.btn-h:hover #spanH1{
+	left: 100%;
+	transition: 1s;
+}
+#spanH3{
+	bottom:0;
+	right:  -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg, transparent,#FF0DDA);
+
+}
+.btn-h:hover #spanH3{
+	right:  100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+#spanH2{
+	top: -100%;
+	right:  0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg, transparent,#FF0DDA);
+
+}
+.btn-h:hover #spanH2{
+	top:   100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+#spanH4{
+	bottom:  -100%;
+	left:   0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg, transparent,#FF0DDA);
+
+}
+.btn-h:hover #spanH4{
+	bottom:    100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
